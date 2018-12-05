@@ -1,0 +1,19 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    int a=22,b=7;
+    int d,n=10;
+    d=a/b;
+    for(int i=0;i<=n;i++){
+    System.out.print(d);
+    if(i==0){System.out.print(".");}
+    a=a-(d*b);
+    a*=10;
+    d=a/b;
+    }
+  }
+}
+
+Output : 
+
+3.1428571428
